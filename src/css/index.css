@@ -1,0 +1,12 @@
+body {
+    font-family: 'Sarasa UI';
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.sub {
+    color: gray;
+    margin-top: 5px;
+}
