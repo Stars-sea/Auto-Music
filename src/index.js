@@ -1,2 +1,2 @@
-import './css/fonts.css'
-import './css/index.css'
+import './css/fonts.css';
+import './css/index.css';
