@@ -1,9 +1,10 @@
 import React from "react";
 
-import "../css/SongRequest.css"
+import "../css/modules/SongRequest.css";
 
-import BlurBg from "../components/BlurBg.jsx";
 import Title from "../components/Title.jsx";
+import MusicList from "../components/MusicList.jsx";
+import InputBox from "../components/InputBox.jsx";
 
 export default class SongRequest extends React.Component {
   constructor(props) {
@@ -13,8 +14,13 @@ export default class SongRequest extends React.Component {
   render() {
     return (
       <div className="main_box">
-        <BlurBg />
+        <span className="blur_bg1"></span>
         <Title title={this.props.title.main} subTitle={this.props.title.sub} />
+
+        <div className="content_box">
+          <MusicList />
+          <InputBox />
+        </div>
       </div>
     );
   }

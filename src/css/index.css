@@ -3,7 +3,6 @@ body {
 }
 
 #background {
-    display: block;
     object-fit: cover;
     position: fixed;
     left: 0;
