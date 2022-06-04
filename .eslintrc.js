@@ -4,11 +4,12 @@ module.exports = {
     node: true
   },
   extends: [
-    'eslint:recommended'
+    "eslint:recommended",
+    "react"
   ],
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
+    ecmaVersion: "latest",
+    sourceType: "module"
   },
   rules: {
   }
