@@ -13,13 +13,12 @@ export default class SongRequest extends React.Component {
 
   render() {
     return (
-      <div className="main_box">
-        <span className="blur_bg1"></span>
+      <div className="main_box blur_bg">
         <Title title={this.props.title.main} subTitle={this.props.title.sub} />
 
         <div className="content_box">
           <MusicList />
-          <InputBox />
+          <InputBox placeholder="输入有效的网易云音乐链接" />
         </div>
       </div>
     );
